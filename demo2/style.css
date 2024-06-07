@@ -13,16 +13,45 @@ body{
 }
 
 
-.estilo-tabla{
+table{
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
 }
 
-.td,td{
-    border: 1px solid black;
+td,td{
+    border: 1px solid rgb(158, 158, 158);
+    text-align: center;
+    padding: 8px;
 }
 
-.th,th{
-    border: 1px solid black;
+th,th{
+    border: 1px solid rgb(158, 158, 158);
     background-color: rgb(228, 228, 228);
+    text-align: center;
+    padding: 8px;
 }
+
+td:nth-child(1){
+    text-align: left; 
+}
+
+.escudo{
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+}
+
+figure{
+display: inline-block;
+border: 1px solid black;
+padding: 10px;
+background-color: rgb(228, 228, 228);
+}
+
+figcaption{
+text-align: 200px;
+max-width: auto;
+padding-top: 10px;
+word-wrap: break-word;
+}
+
